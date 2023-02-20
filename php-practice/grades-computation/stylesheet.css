@@ -1,0 +1,46 @@
+/* Table */
+
+table {
+	width: 60%;
+}
+
+table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: arial;
+  font-size: 3vh;
+  color: darkslateblue;
+  padding: 1vh;
+}
+
+input {
+  height: 2.5vh;
+}
+
+.xqinput {
+  width: 3vh;
+  font-size: 1.5vh;
+}
+
+button {
+  display: inline-block;
+  padding: 1vh 2vh;
+  font-size: 3vh;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkslateblue;
+  border: none;
+  border-radius: 3vh;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(1vh);
+}

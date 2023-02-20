@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Physical Science | HE</title>
+		<link rel="stylesheet" href ="bootstrap.css">
+		<link rel="stylesheet" href ="stylesheet.css">
+		<link rel="shortcut icon" href="imgs/atomlogo22.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<!-- nav -->
+	
+	<nav>
+		<ul>
+			<a href="home.html"><img src = "imgs/atomlogo22.png" width="55" style="float:left; margin-left:0.7em;"></a>
+			<li><a href="Home.html">Home</a></li>
+			<li><a style="color:brown;" href="Topics.html">Topics</a></li>
+			<li><a href="History.html">History</a></li>
+			<li><a href="About.html">About</a></li>
+			
+			<li style="float:right;"><a href="Others.html">Others</a></li>
+			<li style="float:right;"><a href="Sources.html">Sources</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Body -->
+	
+	<body>
+		<div class="grow" style="background-image:url('imgs/HE/HE1.jpg');">
+			<p id="maintitle" style="color:lightgray;">Formation of Heavy Elements</p>
+			
+			<div id="mainp" style="color:lightgray;">
+				<p style="margin-right:35em;">The formation of elements heavier than iron and nickel requires the input of energy. Supernova explosions result when the cores of massive stars have exhausted their fuel supplies and burned everything into iron and nickel.</p>
+			</div>
+		</div>
+		
+		<div class="grow">
+			<img src="imgs/HE/cc.jpg" class="movedown1 book" style="float:right; margin:0.75em; box-shadow: 8px 8px 9px gray;" height="300">
+			<p class="subtitle">The Cosmic Connection By Carl Sagan</p>
+			
+			<div id="mainp">
+				<p>The Cosmic Connection: An Extraterrestrial Perspective is a book by Carl Sagan, produced by Jerome Agel. It was originally published in 1973; an expanded edition with contributions from Freeman Dyson, David Morrison, and Ann Druyan was published in 2000 under the title Carl Sagan's Cosmic Connection. The book contains artwork by Jon Lomberg and other artists.</p>
+			</div>
+		</div>
+		
+		<script>
+			function toggleVis() {
+			var vid = document.getElementById("fusion");
+			if (vid.style.display === "none") {
+				vid.style.display = "inline";
+			} else {
+				vid.style.display = "none";
+				}
+			}	
+		</script>
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			<p class="subtitle">Fusion</p>
+			
+			<div id="mainp">
+				<p>In nuclear physics, nuclear fusion is a reaction in which two or more atomic nuclei are combined to form one or more different atomic nuclei and subatomic particles (neutrons or protons). The difference in mass between the reactants and products is manifested as either the release or absorption of energy.</p>
+			</div>
+			
+			<button type="button" class="btn btn-primary" onclick="toggleVis()">Show/Hide Video</button>
+		</div>
+		
+		<!-- Fusion Video -->
+		
+		<video width="100%" id="fusion" style="display:none;"controls>
+			<source src="vids/fusion.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		
+		<!-- END OF VIDEO -->
+		
+		<div class="grow">
+			<p class="subtitle">Stellar Evolution</p>
+			
+			<div id="mainp">
+				<p>Stellar evolution is the process by which a star changes over the course of time. Depending on the mass of the star, its lifetime can range from a few million years for the most massive to trillions of years for the least massive, which is considerably longer than the age of the universe.</p>
+			</div>
+		</div>
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			<p class="subtitle">Stellar Nucleosynthesis</p>
+			
+			<div id="mainp">
+				<p>Stellar nucleosynthesis is the theory explaining the creation (nucleosynthesis) of chemical elements by nuclear fusion reactions between atoms within stars. Stellar nucleosynthesis has occurred continuously since the original creation of hydrogen, helium and lithium during the Big Bang.</p>
+			</div>
+		</div>
+		
+		<div class="grow">
+			<p class="subtitle">Supernova Nucleosynthesis</p>
+			
+			<div id="mainp">
+				<p>"Supernova nucleosynthesis" is a theory of the production of many different chemical elements in supernova explosions, first advanced by Fred Hoyle in 1954. The nucleosynthesis, or fusion of lighter elements into heavier ones, occurs during explosive oxygen burning and silicon burning.</p>
+			</div>
+		</div>
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			<p class="subtitle">Proton-Proton Chain Reaction</p>
+			
+			<div id="mainp">
+				<p>The proton–proton chain reaction is one of two known sets of nuclear fusion reactions by which stars convert hydrogen to helium. It does not produce particles that go on to induce the reaction to continue (such as neutrons given off during fission).</p>
+			</div>
+		</div>
+		
+		<img src="imgs/HE/TAProc.jpg" style="float:right; margin:1em; margin-right:8em;" height="285">
+		
+		<div class="grow">
+			<p class="subtitle">Triple Alpha Process Nucleosynthesis</p>
+			
+			<div id="mainp">
+				<p>The triple-alpha process is a set of nuclear fusion reactions by which three helium-4 nuclei (alphaparticles) are transformed into carbon.</p>
+			</div>
+			
+		</div>
+		
+		<img src="imgs/HE/AProc.jpg" style="float:left; margin:1em; margin-left:8em;" height="285">
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			
+			<p class="subtitle">Alpha Ladder/Process</p>
+			
+			<div id="mainp">
+				<p>The alpha process, also known as the alpha ladder, is one of two classes of nuclear fusion reactions by which stars convert helium into heavier elements, the other being the triple-alpha process.</p>
+			</div>
+		</div>
+		
+		<img src="imgs/HE/CNO.png" style="float:right; margin:1em; margin-right:8em;" height="285">
+		<div class="grow">
+		
+			<p class="subtitle">CNO Cycle</p>
+			
+			<div id="mainp">
+				<p>The CNO cycle (for carbon–nitrogen–oxygen) is one of the two known sets of fusion reactions by which stars convert hydrogen to helium, the other being the proton–proton chain reaction (pp-chain reaction). Unlike the latter, the CNO cycle is a catalytic cycle.</p>
+			</div>
+		</div>
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			<p class="subtitle">Main-Sequence Star</p>
+			
+			<div id="mainp">
+				<p>Main sequence stars fuse hydrogen atoms to form helium atoms in their cores. About 90 percent of the stars in the universe, including the sun, are main sequence stars. These stars can range from about a tenth of the mass of the sun to up to 200 times as massive. Stars start their lives as clouds of dust and gas.</p>
+			</div>
+		</div>
+		
+		<div class="grow">
+			<p class="subtitle">Red Giant Star</p>
+			
+			<div id="mainp">
+				<p>A red giant star is a dying star in the last stages of stellar evolution. In only a few billion years, our own sun will turn into a red giant star, expand and engulf the inner planets, possibly even Earth.</p>
+			</div>
+		</div>
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			<p class="subtitle">Supernova</p>
+			
+			<div id="mainp">
+				<p>A supernova plural: supernovae or supernovas, abbreviations: SN and SNe) is an event that occurs upon the death of certain types of stars. Supernovae are more energetic than novae. In Latin, nova means "new", referring astronomically to what appears to be a temporary new bright star. Adding the prefix "super-" distinguishes supernovae from ordinary novae, which are far less luminous. The word supernova was coined by Walter Baade and Fritz Zwicky in 1931.
+				</p>
+			</div>
+		</div>
+		
+		<img src="imgs/HE/rproc.jpg" style="float:right; margin:1em; margin-right:8em;" height="285">
+		
+		<div class="grow">
+			<p class="subtitle">R-Process/Rapid Neutron Capture Process</p>
+			
+			<div id="mainp">
+				<p>The rapid neutron-capture process, or so-called r-process, is a set of nuclear reactions that in nuclear astrophysics is responsible for the creation (nucleosynthesis) of approximately half the abundances of the atomic nuclei heavier than iron, usually synthesizing the entire abundance of the two most neutron-rich stable isotopes of each heavy element. Chemical elements heavier than iron typically are enabled by the force between nucleons to be capable of six to ten stable isotopic forms having the same nuclear charge Z but differing in neutron number N, each of whose natural abundances contribute to the natural abundance of the chemical element. Each isotope is characterized by the number of neutrons that it contains.</p>
+			</div>
+		</div>
+		
+		<div class="grow" style="background-color:#f2f2f2;">
+			<p class="subtitle">S-Process/Slow Neutron Capture Process</p>
+			
+			<div id="mainp">
+				<p>The slow neutron-capture process or s-process is a series of reactions in nuclear astrophysics that occur in stars, particularly AGB stars. The s-process is responsible for the creation (nucleosynthesis) of approximately half the atomic nuclei heavier than iron.
+				</p>
+			</div>
+		</div>
+		
+	</body>
+	
+	<!-- Footer -->
+	
+	<div class="footer">
+	<a href="nc.html">
+		<img style="float:right;" height="35" src="imgs/social/fb.png">
+		<img style="float:right; margin-right:1em;" height="35" src="imgs/social/tw.png">
+		<img style="float:right; margin-right:1em;" height="35" src="imgs/social/yt.png">
+	</a>
+		
+		<ul>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+		
+		<div class="fp">
+			Website created with the utmost care by Patrick Pangilinan, Jonas Sandoval and Kim Jeiro Lumalang.
+		</div>
+		
+		<div class="fp">
+			Currently v1.1. Code licensed BEC, docs CC by BEC Media Group&copy;
+		</div>
+	</div>
+	
+</html>

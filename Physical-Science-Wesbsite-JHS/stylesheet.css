@@ -1,0 +1,308 @@
+/* NAV */
+
+nav {
+	position: sticky;
+	top: 0px;
+	z-index: 50;
+}
+
+ul {
+	list-style-type: none;
+	background-color: black;
+	text-align: center;
+	overflow: hidden;
+	padding: 8px;
+	margin: 0;
+	font-weight: bold;
+}
+
+ul li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 19px;
+	text-decoration: none;
+	color:white;
+}
+
+li a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+/* End of Nav */
+
+/* BODY */
+
+a:hover {
+	text-decoration:none;
+}
+
+.mainrow {
+	padding: 4em 10em 5em 10em;
+	margin-bottom: 3em;
+}
+
+#maintitle {
+	font-size: 3em;
+	color: brown;
+	font-weight: bold;
+}
+
+.subtitle {
+	font-size: 2em;
+	color: brown;
+	font-weight: bold;
+}
+
+#mainp {
+	
+}
+
+.subp {
+	margin-right:30em;
+}
+
+.roh1 {
+	padding: 4em 10em 8em 10em;
+	background-image: url('imgs/bgimg11.jpg');
+	color:white;
+	font-weight:bold;
+	opacity:0.85;
+}
+
+.roh2 {
+	padding: 4em 10em 8em 10em;
+	color:black;
+	background-image: url('imgs/HE/supernova1.jpg');
+	font-weight:bold;
+	text-align: right;
+	opacity:0.85;
+}
+
+.roh1:hover {
+	opacity:1;
+}
+
+.roh2:hover {
+	opacity:1;
+}
+
+.grow {
+	padding: 4em 10em 8em 10em;
+	text-align: justify;
+}
+
+.cgrow {
+	padding: 4em 10em 8em 10em;
+	text-align: justify;
+	opacity:0.9;
+}
+
+.cgrow:hover {
+	opacity: 1;
+}
+
+
+
+#title {
+	font-size:3em;
+	font-weight:bold;
+}
+
+/* END OF BODY */
+
+/* FOOTER */
+
+.footer {
+	padding: 2em 2em 4em 4em;
+	background-color: black;
+}
+
+.footer li a {
+	display: block;
+	text-align: center;
+	padding: 0;
+	font-size: 0.9em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	color:gray;
+}
+
+.footer ul {
+	padding: 0;
+}
+
+.footer ul li {
+	padding: 0;
+}
+
+.footer li a:hover {
+	color:white;
+}
+
+.fp {
+	color:gray;
+	font-size: 0.9em;
+}
+
+/* END OF FOOTER */
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  							/* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in;
+  animation:fadeIn ease-in;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.75s;
+  -moz-animation-duration:0.75s;
+  animation-duration:0.75s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+/* Fade in END */
+
+.movedown {
+	opacity:0;
+	animation: fade-in-move-down ease-out 1s;
+	
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+.movedown1 {
+	opacity:0;
+	animation: fade-in-move-down 1s;
+	
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+.movedown.atom {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.movedown.cgro {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.movedown1.one {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.movedown1.two {
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.movedown1.three {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.movedown1.four {
+  -webkit-animation-delay: 2.6s;
+  -moz-animation-delay: 2.6s;
+  animation-delay: 2.6s;
+}
+
+.movedown1.book {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+@keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+::-webkit-scrollbar-corner {
+	background: gray;
+}
+
+.btn {
+	background-color:brown;
+	border-color: brown;
+}
+
+.btn:hover{
+	background-color:red;
+	border-color:brown;
+}
+
+
+.btn:focus{
+	background-color:red;
+	border-color:brown;
+}

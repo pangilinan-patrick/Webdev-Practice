@@ -1,0 +1,27 @@
+.side-bar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1fa342; 
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.side-bar td {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFF;
+    
+}
+
+.side-bar a:hover {
+    color: #c5cae9;
+}
+
+.main-body {
+    margin-left: 160px;
+}
